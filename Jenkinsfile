@@ -1,7 +1,7 @@
 pipeline {
-    agent { docker { image 'node:latest' } }
+    agent { docker { image 'node:alpine' } }
     stages {
-        stage('build') {
+        stage('Xyzzy') {
             steps {
                 sh 'npm --version'
             }
